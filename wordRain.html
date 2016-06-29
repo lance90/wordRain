@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta property="og:image" content="https://jenniferdewalt.com/images/fb_icon.png"/>
+  <title>wordRain</title>
+  <link rel="stylesheet" href="wordRain.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="underscore.js"></script>
+  <script src="wordRain.js"></script>
+</head>
+
+<body id="type_attack">
+	<div class="modal">
+		<h1>Words Rain</h1>
+		<h2 id="first">Type the letters that drop from top of screen.</h2>
+		<h2 id="second">The game will end if you miss 10 letters.</h2>
+		<h2 id="third">Good Luck!</h2>
+	</div>
+
+  <div id="container">
+    <canvas id="canvas" width="700" height="550"></canvas>
+
+    <div id="stat_container">
+      <div class="stat" id="correct">correct: 0</div>
+      <div class="stat" id="wrong">wrong: 0</div>
+      <div class="stat" id="missed">missed: 0</div>
+    </div>
+  </div>
+</body>
+</html>
