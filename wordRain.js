@@ -58,7 +58,7 @@ $(function () {
 			$('#second').text('You got ' + correct + ' right with ' + wrong + ' errors.');
 		}
 		$('#first').text(percent + '%').addClass('score');
-		$('.modal').append('<a href="">Try Again?</a>');
+		$('.modal').append('<a href="https://lance90.github.io/wordRain/wordRain.html">Try Again?</a>');
 
 		$('.modal').show();
 	}
@@ -67,8 +67,8 @@ $(function () {
 	function init() {
 		for (var i = 0; i < 10; i++) {
 			characters.push(new Character());    //在characters的矩陣中添加新的Character()元素
-		drawChars();
 		}
+		drawChars();
 	};
 	
 	//定義造字的屬性
